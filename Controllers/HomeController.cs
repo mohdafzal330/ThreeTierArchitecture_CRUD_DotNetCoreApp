@@ -27,6 +27,12 @@ namespace ThreeTierCrudWebApp.Controllers
             return View(result);
         }
 
+        public IActionResult DeleteProduct(long id)
+        {
+            var result = _productService.DeleteProduct(id);
+            return RedirectToAction("Index");
+        }
+
         public IActionResult Privacy()
         {
             return View();
