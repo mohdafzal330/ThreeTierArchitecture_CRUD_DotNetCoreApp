@@ -1,0 +1,12 @@
+E:\Mindfire Training\DotNetCoreApps\ThreeTierCrudApp\Models\bin\Debug\netcoreapp3.1\Models.deps.json
+E:\Mindfire Training\DotNetCoreApps\ThreeTierCrudApp\Models\bin\Debug\netcoreapp3.1\Models.dll
+E:\Mindfire Training\DotNetCoreApps\ThreeTierCrudApp\Models\bin\Debug\netcoreapp3.1\Models.pdb
+E:\Mindfire Training\DotNetCoreApps\ThreeTierCrudApp\Models\obj\Debug\netcoreapp3.1\Models.csprojAssemblyReference.cache
+E:\Mindfire Training\DotNetCoreApps\ThreeTierCrudApp\Models\obj\Debug\netcoreapp3.1\Models.AssemblyInfoInputs.cache
+E:\Mindfire Training\DotNetCoreApps\ThreeTierCrudApp\Models\obj\Debug\netcoreapp3.1\Models.AssemblyInfo.cs
+E:\Mindfire Training\DotNetCoreApps\ThreeTierCrudApp\Models\obj\Debug\netcoreapp3.1\Models.csproj.CoreCompileInputs.cache
+E:\Mindfire Training\DotNetCoreApps\ThreeTierCrudApp\Models\obj\Debug\netcoreapp3.1\Models.dll
+E:\Mindfire Training\DotNetCoreApps\ThreeTierCrudApp\Models\obj\Debug\netcoreapp3.1\Models.pdb
+E:\Mindfire Training\DotNetCoreApps\ThreeTierCrudApp\Models\bin\Debug\netcoreapp3.1\Models.runtimeconfig.json
+E:\Mindfire Training\DotNetCoreApps\ThreeTierCrudApp\Models\bin\Debug\netcoreapp3.1\Models.runtimeconfig.dev.json
+E:\Mindfire Training\DotNetCoreApps\ThreeTierCrudApp\Models\obj\Debug\netcoreapp3.1\Models.genruntimeconfig.cache

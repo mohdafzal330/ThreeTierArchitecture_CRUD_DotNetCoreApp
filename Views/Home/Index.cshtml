@@ -1,0 +1,50 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model List<Models.ViewModels.ProductViewModel>
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <h3 class="text-info">All Products</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <table class="table table-bordered table-stripepd">
+                <thead class="table-primary">
+                    <tr>
+                        <th>#</th>
+                        <th>Product Name</th>
+                        <th>Product Description</th>
+                        <th>Product Category</th>
+                        <th>Product Price</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.PkProductId</td>
+                            <td>@item.ProductName</td>
+                            <td>@item.ProductDescription</td>
+                            <td>@item.CategoryName</td>
+                            <td>@item.ProductPrice</td>
+                            <td>
+                                <a asp-controller="Home" asp-action="DeleteProduct"
+                                    asp-route-id="@item.PkProductId">Delete</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
